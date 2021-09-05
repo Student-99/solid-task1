@@ -1,9 +1,10 @@
 package product;
 
+import myInterface.IVegetablesAndFruit;
 import myInterface.Product;
 import org.jetbrains.annotations.NotNull;
 
-public class Fruit implements Product {
+public class Fruit implements Product, IVegetablesAndFruit {
     private String nameProduct;
     private double price;
     private double weight;
@@ -24,6 +25,7 @@ public class Fruit implements Product {
         return this.price;
     }
 
+    @Override
     public double getWeight() {
         return weight;
     }
