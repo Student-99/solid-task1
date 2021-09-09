@@ -54,7 +54,10 @@ public class Main {
                 .setName("Кузя")
                 .setSpecification("Продуктовый")
                 .setWorkSchedule(workSchedule)
-                .setAssortments(Arrays.asList(breads, oranges, cucumbers, cocaCola))
+                .setAssortments(breads)
+                .setAssortments(oranges)
+                .setAssortments(cucumbers)
+                .setAssortments(cocaCola)
                 .build();
 
 

@@ -28,8 +28,8 @@ public class ShopBuilder implements IShopBuilder {
         return this;
     }
 
-    public ShopBuilder setAssortments(List<Product> assortments) {
-        this.assortments = assortments;
+    public ShopBuilder setAssortments(Product assortment) {
+        this.assortments.add(assortment);
         return this;
     }
 
